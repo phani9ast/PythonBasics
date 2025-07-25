@@ -140,7 +140,7 @@ for i in range(0,len(a),1):
         if letter==' ':
             count+=1
     word_count+=count+1
-print(word_count)'''
+print(word_count)
 
 ##Matrix
 a=[[1,3,7,3,2,9],[10,15,12,30],[100,230,120]]
@@ -157,4 +157,22 @@ for ls in a:
         sum_1+=number
 print(sum_1)
 
-## Commiting until this line to git - Commit 2
+## Commiting until this line to git - Commit 2## '''
+
+#BubbleSort
+
+A=[5,2,1]
+
+pivot=0
+temp=0
+for pivot in range(0,len(A),1):
+    for i in range(pivot+1,len(A),1): 
+        ## if list(0)>list(1), then swap, else goto list(2)
+        if A[pivot]>A[i]:
+            ## Logic for swapping (temp=list(0), then list(0)=list(1)), then list(1)=temp)
+            temp=A[pivot]
+            A[pivot]=A[i]
+            A[i]=temp
+## moving pivot to next index
+
+print(A)
