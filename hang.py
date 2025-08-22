@@ -42,3 +42,6 @@ while True:
     if num_of_tries>word_len:
         print("Exhasuted all tries. Better luck next time!")
         break
+
+
+str.isdigit
