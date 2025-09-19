@@ -1,0 +1,5 @@
+7
+3
+{"3,7": "AddCoins", "7,5": "LifePlus", "4,7": "Reveal_Loc", "6,6": "Teleport"}
+1
+5
